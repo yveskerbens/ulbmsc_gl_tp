@@ -36,11 +36,12 @@ public class Fraction {
 		return sum;
 	}
 	
-	public int lcm(int f1denom, int f2denom) {
-		while (f1denom%f2denom != 0) {
-			int  factor = f1denom;
-			f1denom +=factor;
+	public int lcm(Fraction f1d, Fraction f2d) {
+		 
+		while (f1d.denominator%f2d.denominator != 0) {
+			int  factor = f1d.denominator;
+			f1d.denominator +=factor;
 		}
-		return f1denom;
+		return f1d.denominator;
 	}
 }

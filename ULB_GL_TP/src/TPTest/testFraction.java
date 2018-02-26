@@ -19,4 +19,12 @@ public class testFraction {
 		Fraction f2 = new Fraction(1, 1);
 		f1.add(f1, f2);
 	}
+	
+	@Test
+	public void lcm(){
+		Fraction f1 = new Fraction(1, 6);
+		Fraction f2 = new Fraction(1, 3);
+		assertEquals(6, )
+		
+	}
 }
